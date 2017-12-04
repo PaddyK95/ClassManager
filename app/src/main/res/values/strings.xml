@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ClassManager</string>
+    <string name="desc">image logo</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="account">Have an account?</string>
+    <string name="loginn">Log in</string>
+    <string name="date">Choose a date to view timetable</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="name">Name</string>
+    <string name="teachers">Please fill in fields to add/remove teacher</string>
+    <string name="students">Please fill in fields to add/remove students</string>
+    <string name="tid">Teacher ID</string>
+    <string name="sid">Student ID</string>
+    <string name="parentname">Parent name</string>
+    <string name="parentemail">Parent email</string>
+    <string name="list">Here is the list of students</string>
+</resources>
+

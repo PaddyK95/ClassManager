@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/nameTf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="107dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/idTf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTf"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="@string/sid"
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/emailTf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTf"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/parentname"
+            android:inputType="textEmailAddress"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/passwordTf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/emailTf"
+            android:layout_below="@+id/emailTf"
+            android:layout_marginTop="23dp"
+            android:ems="10"
+            android:hint="@string/parentemail"
+            android:inputType="textPassword"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/passwordTf"
+            android:layout_below="@+id/passwordTf"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="29dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/removeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/passwordTf"
+            android:layout_alignTop="@+id/addBtn"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/remove" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"
+            android:text="@string/students"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

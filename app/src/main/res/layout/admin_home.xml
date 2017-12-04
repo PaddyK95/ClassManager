@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/cmlogo2" />
+
+        <Button
+            android:id="@+id/teacherBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Add/Remove Teacher" />
+
+        <Button
+            android:id="@+id/studentBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teacherBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Enroll/Remove Student" />
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/studentBtn"
+            android:layout_below="@+id/studentBtn"
+            android:layout_marginTop="45dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Log out" />
+    </RelativeLayout>
+</LinearLayout>

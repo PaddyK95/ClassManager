@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:contentDescription="@string/desc"
+            app:srcCompat="@drawable/cmlogo" />
+
+        <EditText
+            android:id="@+id/emailTf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordTf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_below="@+id/emailTf"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/pass"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/passwordTf"
+            android:layout_below="@+id/passwordTf"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="43dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView2"
+            android:layout_alignTop="@+id/loginBtn"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/register" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
